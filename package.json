@@ -1,0 +1,19 @@
+{
+  "name": "tether-crypto-data",
+  "version": "1.0.0",
+  "description": "Crypto currency data gathering solution using Hyperswarm RPC and Hypercores",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "client": "node src/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hyperswarm/rpc": "^1.0.0",
+    "hyperbee": "^1.0.0",
+    "hypercore": "^10.0.0",
+    "hyperdht": "^6.0.0",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.1"
+  }
+}
